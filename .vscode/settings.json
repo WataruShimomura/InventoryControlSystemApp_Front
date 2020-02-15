@@ -1,0 +1,16 @@
+{
+  "eslint.autoFixOnSave": true,
+  "files.associations": {
+    "*.vue": "vue"
+},
+"eslint.validate": [
+    "javascript",
+    {
+    "language": "vue",
+    "autoFix": true
+    }
+],
+"editor.codeActionsOnSave": {
+  "source.fixAll.eslint": true
+},
+}
